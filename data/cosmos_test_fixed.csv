@@ -1,0 +1,11 @@
+image_id,image_path_or_url,caption1,caption2,label
+cosmos_test_0000,images/sample_001.jpg,A young child holding a birthday cake with lit candles,The president announcing new climate policies during a press conference,OOC
+cosmos_test_0001,images/sample_002.jpg,A doctor performing surgery in a hospital operating room,A doctor examining a patient during a routine checkup,NOOC
+cosmos_test_0002,images/sample_003.jpg,Athletes running in a marathon race on a city street,A famous actor walking the red carpet at a movie premiere,OOC
+cosmos_test_0003,images/sample_004.jpg,A family enjoying breakfast together at their kitchen table,Children having fun at a birthday party with cake and decorations,NOOC
+cosmos_test_0004,images/sample_005.jpg,The Eiffel Tower during sunset with tourists on the grounds,A military tank rolling through a city street during conflict,OOC
+cosmos_test_0005,images/sample_006.jpg,A wedding couple cutting their wedding cake during the reception,Newlyweds dancing together at their wedding reception,NOOC
+cosmos_test_0006,images/sample_007.jpg,A wild tiger walking through the jungle,A tiger in the zoo behind a protective barrier,NOOC
+cosmos_test_0007,images/sample_008.jpg,A nurse comforting a patient in a hospital bed,A rocket launching into space during a space mission,OOC
+cosmos_test_0008,images/sample_009.jpg,Students studying together in a university library,Students sitting in a classroom listening to a lecture,NOOC
+cosmos_test_0009,images/sample_010.jpg,A beautiful sunset over the ocean horizon,A tornado destroying buildings in a rural area,OOC
