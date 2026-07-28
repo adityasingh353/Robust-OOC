@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Project-specific
+results/*/
+*.log
+.cache/
+
+# Data (keep structure, ignore actual image/data files)
+data/*.jpg
+data/*.png
+data/*.jpeg
+data/images/
+temp_cosmos/images/
+temp_cosmos/data/
+
+# But keep CSVs and config
+!data/*.csv
+!data/*.json
+data/images_test/
+data/temp/
