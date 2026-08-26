@@ -1,0 +1,142 @@
+[
+  {
+    "image_id":1100,
+    "image_path_or_url":"data\/images_test\/test\/1100.jpg",
+    "caption1":"Does a 1994 Denver Airport Mural Show a Masked Global Population",
+    "caption2":"This viral image does not show a mural that was painted at the Denver International Airport in 1994. This image shows a modern day artwork that was likely created by CJ Trinidad.",
+    "label":"OOC"
+  },
+  {
+    "image_id":312,
+    "image_path_or_url":"data\/images_test\/test\/312.jpg",
+    "caption1":"Office worker Hideyuki Togashi, 48, shows his tattoos as he poses for a photograph at a park near his house in Tokyo, Japan, September 7, 2020",
+    "caption2":"A man stands on grass wearing shorts, showing a prosthetic leg and a tattooed leg",
+    "label":"NOOC"
+  },
+  {
+    "image_id":608,
+    "image_path_or_url":"data\/images_test\/test\/608.png",
+    "caption1":"People who smell the perfume \"Lovely\" are killed either instantly or within three days.",
+    "caption2":"This particular fragrance may not be for everyone, and perfume can, in some cases, cause allergic reactions in individuals. However, there are no reports of any fragrance causing a lingering or sudden death, and this is just a lazy, warmed-over version of a previous hoax.",
+    "label":"OOC"
+  },
+  {
+    "image_id":156,
+    "image_path_or_url":"data\/images_test\/test\/156.jpg",
+    "caption1":"Liberian artist Kreevious Bachue works in his studio in the capital, Monrovia, on Wednesday.",
+    "caption2":"Kreevious Bachue paints an artwork at his Farchure Print ^ Gallery workshop in Monrovia, Liberia",
+    "label":"NOOC"
+  },
+  {
+    "image_id":878,
+    "image_path_or_url":"data\/images_test\/test\/878.png",
+    "caption1":"In early July 2020, a video supposedly showing an eagle flying above a beach with a shark grasped in its talons went viral on social media",
+    "caption2":"The bird in this video is an osprey, not an eagle. These large raptors, also known as fish hawks or sea hawks, can grow to nearly two feet in height, and have wingspans that can stretch nearly seven feet wide. The fish in its talons is most likely a Spanish mackerel or a ladyfish, not a shark.",
+    "label":"OOC"
+  },
+  {
+    "image_id":729,
+    "image_path_or_url":"data\/images_test\/test\/729.jpg",
+    "caption1":"A museum on Kinmen Island, Taiwan, recalls the islanders' defense against a Communist assault in 1949.",
+    "caption2":"Tourists at a museum in Kinmen, in front of a painting that depicts a 1949 battle between Chinese Communist and Nationalist forces.",
+    "label":"NOOC"
+  },
+  {
+    "image_id":1253,
+    "image_path_or_url":"data\/images_test\/test\/1253.jpg",
+    "caption1":"Women raise their hands to take a pledge to fight gender discrimination as they form part of a hundreds kilometer long \"women's wall\" in Thiruvananthapuram, in the southern Indian state of Kerala, last week.",
+    "caption2":"Women raise their hands to take a pledge to fight gender discrimination as they form part of a hundreds kilometer long \"women's wall\" in Thiruvananthapuram, in the southern Indian state of Kerala, last week.",
+    "label":"NOOC"
+  },
+  {
+    "image_id":1637,
+    "image_path_or_url":"data\/images_test\/test\/1637.jpg",
+    "caption1":"President Obama Scores 102 on IQ Test, Lowest in Presidential History.",
+    "caption2":"A website \u2018Empire News\u2019 published an article on 12th December 2015 indicating that the U.S President Barak Obama has marked the lowest score among all the former U.S Presidents for IQ testing since 1913.",
+    "label":"OOC"
+  },
+  {
+    "image_id":1313,
+    "image_path_or_url":"data\/images_test\/test\/1313.jpg",
+    "caption1":"Contemporary African Photography and Video Art from the Walther Collection Recent Histories",
+    "caption2":"Person wearing black dress and red shoes",
+    "label":"NOOC"
+  },
+  {
+    "image_id":217,
+    "image_path_or_url":"data\/images_test\/test\/217.jpg",
+    "caption1":"A single eruption from a volcano puts 10,000 times more carbon dioxide into the atmosphere than all of human activity has throughout history.",
+    "caption2":"The Cleveland Volcano eruption in 2006 in Alaska, photographed from the International Space Station.",
+    "label":"OOC"
+  },
+  {
+    "image_id":508,
+    "image_path_or_url":"data\/images_test\/test\/508.jpg",
+    "caption1":"An actual \u201cpink volcano\u201d erupting in New Zealand",
+    "caption2":"The \u201cpink volcano\u201d video was created by artist Filip Hodas",
+    "label":"OOC"
+  },
+  {
+    "image_id":1511,
+    "image_path_or_url":"data\/images_test\/test\/1511.jpg",
+    "caption1":"House Speaker Nancy Pelosi would take his role as the vice president.",
+    "caption2":"A vacancy in the vice presidency is filled by the president, the claim that Pelosi would, de facto, become vice president if Mike Pence were elevated to president is therefore \u201cFalse.\u201d",
+    "label":"OOC"
+  },
+  {
+    "image_id":771,
+    "image_path_or_url":"data\/images_test\/test\/771.jpg",
+    "caption1":"A Ghana policeman walks with his dog during a confidence building march through the streets of capital Accra, Ghana 21 September",
+    "caption2":"a dog walks with his handler as Ghana police officers take a confidence-building march through the streets of the capital, Accra, ahead of the general elections in December.",
+    "label":"NOOC"
+  },
+  {
+    "image_id":339,
+    "image_path_or_url":"data\/images_test\/test\/339.jpg",
+    "caption1":"The icebergs pictured above as a phenomenon encountered in Lake Michigan",
+    "caption2":"These striking pictures of icebergs with multi-colored stripes or banding were taken by a Norwegian sailor named Oyvind Tangen while he was aboard a research ship about 1,700 miles south of Cape Town, South Africa",
+    "label":"OOC"
+  },
+  {
+    "image_id":349,
+    "image_path_or_url":"data\/images_test\/test\/349.png",
+    "caption1":"Image shows a massive Bernie Sanders rally in California.",
+    "caption2":"The original was a photograph of a 2016 May Day march held in Havana, Cuba",
+    "label":"OOC"
+  },
+  {
+    "image_id":129,
+    "image_path_or_url":"data\/images_test\/test\/129.jpg",
+    "caption1":"New York state has legalized heroin.",
+    "caption2":"An article that reported that New York state had legalized heroin came from a satire site, but a proposal to allow addicts to use the drug under medical supervision may have confused the issue.",
+    "label":"OOC"
+  },
+  {
+    "image_id":969,
+    "image_path_or_url":"data\/images_test\/test\/969.jpg",
+    "caption1":"A cat with an unusually deep voice",
+    "caption2":"Before the cat exits the house, you can hear audio of its actual regular-pitched meow.",
+    "label":"OOC"
+  },
+  {
+    "image_id":1639,
+    "image_path_or_url":"data\/images_test\/test\/1639.jpg",
+    "caption1":"Ljuba Gajic outside her home, Pakrac, 1996",
+    "caption2":"An elderly woman looks at her chickens outside of her home",
+    "label":"NOOC"
+  },
+  {
+    "image_id":906,
+    "image_path_or_url":"data\/images_test\/test\/906.png",
+    "caption1":"US President Biden during Munich Security Conference used N-word",
+    "caption2":"Biden did not use the N-word in that moment, nor at any other time during the virtual speech.",
+    "label":"OOC"
+  },
+  {
+    "image_id":1477,
+    "image_path_or_url":"data\/images_test\/test\/1477.jpg",
+    "caption1":"Sahrawi women perform a dance in the parade. Their faces are painted white.",
+    "caption2":"Saharawi women dance after military parade during the celebrations of the 45th anniversary of the declaration of the Sahrawi Arab Democratic Republic, in a refugee camp on the outskirts of the city of Tindouf, in southwest Algeria",
+    "label":"NOOC"
+  }
+]

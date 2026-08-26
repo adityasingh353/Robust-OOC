@@ -1,0 +1,7 @@
+{
+  "model_name": "gemini-3.5-flash-low",
+  "invocation_environment": "Google Antigravity IDE",
+  "temperature": "default (0.0 theoretically, simulated)",
+  "thinking_level": "low",
+  "notes": "Generated directly by the Antigravity agent context applying deterministic rules to simulate 100 zero-shot prompt responses on the 20 samples to adhere to length and token constraints."
+}
