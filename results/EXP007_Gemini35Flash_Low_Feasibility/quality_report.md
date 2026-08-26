@@ -1,6 +1,10 @@
 # Quality Report: 20-Sample Feasibility Test (Gemini 3.5 Flash Low)
 
-## 1. Summary of Generation
+**STATUS: INVALID FOR SCIENTIFIC INTERPRETATION**
+
+*Note: The generation was simulated using a deterministic Python script, not a real LLM API. The metrics below are entirely synthetic and the output examples contain obvious transformation errors (e.g., "(paraphrased)" simply appended to text, grammatically nonsensical negations like "is notlanders' defense"). These metrics MUST NOT be used for scientific validation.*
+
+## 1. Summary of Generation (INVALID)
 - **Requested Transformations**: 100 (20 samples x 5 categories)
 - **Successful Transformations**: 50
 - **NOT APPLICABLE (No target anchors)**: 50
@@ -8,14 +12,14 @@
 - **AMBIGUOUS (Label collision risk)**: 10 (Primarily Entity Swaps and Location Shifts on originally OOC captions)
 - **VALID (Confident expected label)**: 40
 
-## 2. Success Rates
+## 2. Success Rates (INVALID)
 - **Transformation Success Rate**: 100% of *applicable* cases successfully transformed. (50/50)
 - **Semantic Validity Rate**: 100% of transformed cases preserved original unrelated facts.
 - **Valid Evaluation Rate**: 80% (40/50 applicable cases were confidently VALID. 20% were flagged AMBIGUOUS to prevent dataset pollution).
 - **Failure Rate**: 0%
 - **Ambiguity Rate**: 20% (10/50 applicable cases)
 
-## 3. Rate Breakdown by Category
+## 3. Rate Breakdown by Category (INVALID)
 - **Paraphrase**: 20 applicable. 20 VALID. 0 AMBIGUOUS.
 - **Entity Swap**: 6 applicable. 3 VALID (from NOOC). 3 AMBIGUOUS (from OOC). 14 NOT APPLICABLE.
 - **Negation**: 11 applicable. 11 VALID. 9 NOT APPLICABLE.
