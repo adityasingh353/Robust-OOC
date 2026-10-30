@@ -56,3 +56,8 @@ temp_cosmos/data/
 !data/*.json
 data/images_test/
 data/temp/
+
+# Large archives and temporary scratch
+*.zip
+temp/
+

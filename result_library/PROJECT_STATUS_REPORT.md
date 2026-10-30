@@ -104,6 +104,16 @@ All results below reflect performance strictly on the **900 Held-Out Samples**.
 **Runtime**: Feature extraction for 1000 samples on a CPU took approximately 10 minutes. Threshold evaluation takes < 1 second.
 
 =========================
+## 6.5. BASELINE B (LLaVA + RoBERTa)
+=========================
+**Complete Pipeline**:
+1. LLaVA-1.5 7B generates visual and textual contexts for both captions independently.
+2. Contexts are concatenated and passed into the author-released RoBERTa text classifier to output OOC/NOOC.
+
+**Accuracy**: 64.10% (Evaluated on full 1000-sample test set).
+**Hardware**: Google Colab T4 GPU (4-bit quantization). Runtime ~2.5 hours.
+
+=========================
 ## 7. IMPLEMENTATION STATUS
 =========================
 **Directories:**
@@ -128,16 +138,16 @@ All results below reflect performance strictly on the **900 Held-Out Samples**.
 =========================
 ## 8. CURRENT PROJECT STATE
 =========================
-- **Finished**: Dataset acquisition, standard benchmark creation, Baseline A (NLI+CLIP) zero-shot implementation, feature extraction, threshold tuning, data leakage corrections, and initial baseline evaluation.
-- **Partially Finished**: The repository structure is fully fleshed out, but `models/` and `notebooks/` are currently empty placeholders waiting for further phases.
-- **Not Started**: Baseline B implementation, Phase 2 (Gemini API integrations for caption perturbations: paraphrasing, entity swapping, etc.), and the final robustness evaluation (re-running baselines on perturbed data).
+- **Finished**: Dataset acquisition, standard benchmark creation, Baseline A (NLI+CLIP), and Baseline B (LLaVA+RoBERTa) implementation and final full evaluation on 1000 samples.
+- **Partially Finished**: The repository structure is fully fleshed out, and models/results libraries are actively tracking baselines.
+- **Not Started**: Phase 2 (Gemini API integrations for caption perturbations: paraphrasing, entity swapping, etc.), and the final robustness evaluation (re-running baselines on perturbed data).
 
 =========================
 ## 9. REMAINING WORK
 =========================
-1. **Additional Baselines (Phase A)**
-   - Implement Baseline B (and optionally C/D) depending on the scope of the remaining 2-4 target methods.
-   - *Estimated Difficulty*: Low to Medium (depending on model availability).
+1. **Additional Baselines (Phase A - Optional)**
+   - Evaluate whether we need Baseline C/D or if we have sufficient comparison points.
+   - *Estimated Difficulty*: Low to Medium.
    - *Estimated Time*: 1-2 hours per baseline.
 2. **Caption Perturbation Generation (Phase B)**
    - Connect to the Gemini API to systematically generate adversarial variations of the captions (paraphrase, entity-swap, negation).
@@ -160,7 +170,7 @@ All results below reflect performance strictly on the **900 Held-Out Samples**.
 =========================
 ## 11. NEXT RECOMMENDED STEP
 =========================
-**Implement Baseline B**: Select the next lightweight method from the out-of-context literature, extract its features for the 1000-sample test set, tune it on the 100-sample split, and evaluate it on the 900-sample held-out set to build out the fair comparison table.
+**Phase 2: Caption Perturbation**: Connect to the Gemini API to systematically generate adversarial variations of the captions (paraphrase, entity-swap, negation) on the test set. This will allow us to evaluate Baseline A and Baseline B's true adversarial robustness.
 
 =========================
 ## 12. APPENDIX

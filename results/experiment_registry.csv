@@ -1,0 +1,6 @@
+Experiment ID,Short Name,Paper Title,Classification,Status,Notes
+EXP001,COSMOS-FIXED-v1,Aneja et al. (COSMOS benchmark),Completed,Frozen,Dataset creation
+EXP002,Baseline A,NLI + CLIP Baseline,Completed,Frozen,Custom zero-shot baseline
+EXP004,Baseline B,LLaVA + RoBERTa,Completed,Frozen,Custom zero-shot baseline
+EXP005,Unified Network,Detecting out-of-context images with unified network,D - Not reproducible,Closed,Missing training artifacts and preprocessing
+EXP006,CSGM,Multimodal scene-graph matching for cheapfakes detection,D - Not reproducible,Closed,Missing SGG generation code to process raw images
